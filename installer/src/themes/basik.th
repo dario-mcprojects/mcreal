@@ -1,0 +1,77 @@
+QWidget {
+    background-color: $bg_color;
+    color: $text_color;
+}
+
+QPushButton {
+    background-color: $primary_t;
+    border: 0px solid rgb();
+}
+QPushButton::hover {
+    background-color: $primary_t_lighter;
+}
+QPushButton::hover:pressed {
+    background-color: $primary_t_darker;
+}
+
+QLineEdit {
+    border: 2px solid $primary_t;
+}
+
+QComboBox {
+    border: 2px solid $primary_t;
+    background-color: $secondary_t_darker;
+}
+QComboBox::hover {
+    background-color: $secondary_t;
+}
+
+QGroupBox {
+    border: 2px solid $primary_t_lighter;
+}
+
+QRadioButton::indicator {
+    border-radius: 6px;
+	border: 2px solid $primary_t;
+}
+QRadioButton::indicator:checked {
+	background-color: $primary_t_lighter;
+}
+
+QCheckBox::indicator {
+	border: 2px solid $primary_t;
+}
+QCheckBox::indicator:checked {
+	background-color: $primary_t_lighter;
+}
+
+QSlider::groove:horizontal {
+    border: 0px solid;
+    height: 10px;
+    margin: 0px;
+    background-color: $secondary_t;
+}
+QSlider::groove:horizontal::hover {
+    background-color: $secondary_t_lighter;
+}
+QSlider::handle:horizontal {
+    background-color: $primary_t;
+    width: 10px;
+    height: 5px;
+    margin: -30px 0;
+}
+QSlider::groove:vertical {
+    border: 0px solid;
+    width: 10px;
+    margin: 0px;
+    background-color: $secondary_t;
+}
+QSlider::groove:vertical::hover {
+    background-color: $secondary_t_lighter;
+}
+QSlider::handle:vertical {
+    background-color: $primary_t;
+    width: 5px;
+    height: 10px;
+    margin: 0 -30px;
+}

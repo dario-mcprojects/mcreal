@@ -1,0 +1,81 @@
+QWidget {
+    border-radius: $round_val;
+}
+
+QFrame {
+    border-radius: $round_val;
+}
+QFrame#titlebar_frame {
+    border-radius: 0px;
+    border-top-left-radius: $round_val;
+}
+
+QPushButton {
+    border-radius: $round_val;
+}
+QPushButton::hover {
+    border-radius: $round_val;
+}
+QPushButton::hover:pressed {
+    border-radius: $round_val;
+}
+QPushButton#quit_button {
+    border-radius: 0px;
+    border-top-right-radius: $round_val;
+}
+
+QLineEdit {
+    border-radius: $round_val;
+}
+
+QComboBox {
+    border-radius: $round_val;
+}
+QComboBox::hover {
+    border-radius: $round_val;
+}
+
+QGroupBox {
+    border-radius: $round_val;
+}
+
+QRadioButton::indicator {
+    border-radius: $round_val;
+}
+QRadioButton::indicator:checked {
+    border-radius: $round_val;
+}
+
+QCheckBox::indicator {
+	border-radius: $round_val;
+}
+QCheckBox::indicator:checked {
+	border-radius: $round_val;
+}
+
+QSlider::groove:horizontal {
+    border-radius: $round_val;
+}
+QSlider::groove:horizontal::hover {
+    border-radius: $round_val;
+}
+QSlider::handle:horizontal {
+    border-radius: $round_val;
+}
+QSlider::groove:vertical {
+    border-radius: $round_val;
+}
+QSlider::groove:vertical::hover {
+    border-radius: $round_val;
+}
+QSlider::handle:vertical {
+    border-radius: $round_val;
+}
+
+QProgressBar {
+    border-radius: $round_val;
+}
+
+QProgressBar::chunk {
+    border-radius: $round_val;
+}

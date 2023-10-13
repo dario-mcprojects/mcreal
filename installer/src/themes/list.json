@@ -1,0 +1,20 @@
+[
+    {
+        "file": "basik_mc2.th",
+        "opt": "basik-round.th",
+        "varfile": "basik_mc2.thvar",
+        "name": "Basik - Modified Minecraft Theme (Version 2)"
+    },
+    {
+        "file": "basik_mc.th",
+        "opt": "",
+        "varfile": "basik_mc.thvar",
+        "name": "Basik - Modified Minecraft Theme"
+    },
+    {
+        "file": "basik.th",
+        "opt": "",
+        "varfile": "basik.thvar",
+        "name": "Basik - Night Blue"
+    }
+]

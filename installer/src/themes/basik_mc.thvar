@@ -1,0 +1,17 @@
+{
+    "$bg_color": "rgb(34, 34, 34)",
+    "$primary_t_darker": "rgba(53, 53, 53, 40)",
+    "$primary_t_lighterr": "rgba(53, 53, 53, 150)",
+    "$primary_t_lighter": "rgba(53, 53, 53, 100)",
+    "$primary_t": "rgba(53, 53, 53, 70)",
+    "$primary": "rgb(53, 53, 53)",
+    "$secondary_t_darker": "rgba(16, 0, 217, 40)",
+    "$secondary_t_lighter": "rgba(16, 0, 217, 100)",
+    "$secondary_t": "rgba(16, 0, 217, 70)",
+    "$secondary": "rgb(16, 0, 217)",
+    "$text_color": "rgb(255, 255, 255)",
+    "$roundval": "5px",
+    "$border_color_disabled": "rgba(34, 34, 34, 70)",
+    "$border_color": "rgb(241, 180, 113)"
+    
+}

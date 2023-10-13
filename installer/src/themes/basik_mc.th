@@ -1,0 +1,134 @@
+QWidget {
+    color: $text_color;
+}
+
+QMainWindow {
+    background-image: url("src/images/background.jpg"); 
+    background-repeat: no-repeat; 
+    background-position: center;
+
+    border: 3px solid $border_color;
+}
+
+/* FRAME */
+QFrame {
+    border: 2px solid $border_color;
+}
+QFrame#titlebar_frame {
+    background-color: rgba(53, 53, 53, 240);
+}
+
+/* LABEL */
+QLabel {
+    border: 0px solid rgba(0, 0, 0, 0);
+}
+
+/* PUSH BUTTONS */
+QPushButton {
+    background-color: $primary_t;
+    border: 2px solid $border_color;
+}
+QPushButton:disabled {
+    background-color: $primary_t_lighter;
+    border-color: $border_color_disabled;
+}
+QPushButton::hover {
+    background-color: $primary_t_lighter;
+}
+QPushButton::hover:pressed {
+    background-color: $primary_t_darker;
+}
+QPushButton#quit_button {
+    background-color: rgba(180, 0, 0, 150)
+}
+QPushButton#quit_button::hover {
+    background-color: rgba(180, 0, 0, 210)
+}
+QPushButton#quit_button::hover:pressed {
+    background-color: rgba(180, 0, 0, 120)
+}
+
+/* LINE EDIT */
+QLineEdit {
+    border: 2px solid $border_color;
+    background-color: $primary_t_lighter;
+}
+QLineEdit:disabled {
+    background-color: $primary_t_lighterr;
+    border-color: $border_color_disabled;
+}
+
+/* COMBOBOX */
+QComboBox {
+    border: 2px solid $border_color;
+    background-color: $primary_t;
+}
+QComboBox::hover {
+    background-color: $primary_t_lighter;
+}
+
+/* GROUPBOX */
+QGroupBox {
+    border: 2px solid $primary_t_lighter;
+}
+
+/* RADIO BUTTON */
+QRadioButton::indicator {
+    border-radius: 6px;
+	border: 2px solid $primary_t;
+}
+QRadioButton::indicator:checked {
+	background-color: $primary_t_lighter;
+}
+
+/* CHECKBOX */
+QCheckBox::indicator {
+	border: 2px solid $primary_t;
+}
+QCheckBox::indicator:checked {
+	background-color: $primary_t_lighter;
+}
+
+/* SLIDER */
+QSlider::groove:horizontal {
+    border: 0px solid;
+    height: 10px;
+    margin: 0px;
+    background-color: $secondary_t;
+}
+QSlider::groove:horizontal::hover {
+    background-color: $secondary_t_lighter;
+}
+QSlider::handle:horizontal {
+    background-color: $primary_t;
+    width: 10px;
+    height: 5px;
+    margin: -30px 0;
+}
+QSlider::groove:vertical {
+    border: 0px solid;
+    width: 10px;
+    margin: 0px;
+    background-color: $secondary_t;
+}
+QSlider::groove:vertical::hover {
+    background-color: $secondary_t_lighter;
+}
+QSlider::handle:vertical {
+    background-color: $primary_t;
+    width: 5px;
+    height: 10px;
+    margin: 0 -30px;
+}
+
+/* PROGRESS BAR */
+QProgressBar {
+    border: 2px solid $primary_t;
+    background-color: $primary_t;
+    color: $primary_t;
+}
+
+QProgressBar::chunk {
+    background-color: $border_color;
+    color: $border_color;
+}

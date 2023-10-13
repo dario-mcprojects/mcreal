@@ -1,0 +1,13 @@
+{
+    "$bg_color": "rgb(0, 22, 45)",
+    "$primary_t_darker": "rgba(23, 104, 255, 40)",
+    "$primary_t_lighter": "rgba(23, 104, 255, 100)",
+    "$primary_t": "rgba(23, 104, 255, 70)",
+    "$primary": "rgb(23, 104, 255)",
+    "$secondary_t_darker": "rgba(16, 0, 217, 40)",
+    "$secondary_t_lighter": "rgba(16, 0, 217, 100)",
+    "$secondary_t": "rgba(16, 0, 217, 70)",
+    "$secondary": "rgb(16, 0, 217)",
+    "$text_color": "rgb(255, 255, 255)",
+    "$roundval": "5px"
+}
